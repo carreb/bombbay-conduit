@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bombbay",
+  "name": "The Bomb Bay",
+  "description": "Tracks Wynncraft Bombs through a network of Champion rank players & an API.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://bombbay.floaters.lol",
+  "updateUrl": "https://floaters.lol",
+  "authorList": ["carreb"],
+  "credits": "LeBron James",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
