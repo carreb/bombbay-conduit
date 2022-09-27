@@ -1,5 +1,6 @@
 package lol.floaters.bombbay;
 
+import lol.floaters.bombbay.events.handler;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -20,6 +21,7 @@ public class main
     public void preInit(FMLPreInitializationEvent event)
     {
         logger = event.getModLog();
+        handler.registerEvents();
     }
 
     @EventHandler
@@ -28,4 +30,6 @@ public class main
         // some example code
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
+
+
 }
