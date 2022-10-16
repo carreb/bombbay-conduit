@@ -19,7 +19,7 @@ public class bombBellReceived {
         if (message.startsWith("[Bomb Bell]")) {
             System.out.println(message);
             try {
-                URL url = new URL("https://api.wynnbombs.xyz/register");
+                URL url = new URL("https://api.wynnbombs.xyz/live/register");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);
